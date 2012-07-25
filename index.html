@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>SCORMify Sample</title>
+    <script src="scormify.js" type="text/javascript"></script>
+    <link rel="Stylesheet" href="css/style.css" type="text/css" />
+</head>
+<body>
+    <div id="content">
+        <header>
+            <h1>SCORMify Sample Course</h1>
+            <p class="intro">Create your own SCORM 1.2 compliant content that can be uploaded into any LMS</p>
+        </header>
+        <section>
+            <h2>A few rules...</h2>
+            <ul>
+                <li>The starting point for your content must be the <strong>index.html</strong> page</li>
+                <li>Index.html must reference <strong>scormify.js</strong> as this communicates with the LMS</li>
+                <li>Don't modify the <strong>imsmanifest.xml</strong> unless you know what you're doing</li>
+            </ul>
+            <h2>What content can I use?</h2>
+            <p>You can use any content that you want including:</p>
+            <ul>
+                <li>Videos, images, audio, flash</li>
+                <li>Links to other html pages. i.e. create a basic website with navigation.</li>
+                <li>Javascript. Could be included in the package or referenced from another site like a CDN.</li>
+                <li>Stylesheets</li>
+            </ul>
+            <h2>Publish &amp; deploy</h2>
+            <p>Once you're ready to deply you will need to zip all of your files ensuring that index.html and imsmanifest.xml are in the <strong>root</strong> of the zip.</p>
+            <p>You will then upload your new zip file to a SCORM compliant LMS.</p>
+            <p class="italic">Note: A common mistake is to zip the folder that contains your content. In this case the folder becomes the root item of the zip which could prevent the destination LMS from being able to unpackage the SCORM correctly.</p>            
+        </section>
+    </div>
+</body>
+</html>
