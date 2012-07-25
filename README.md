@@ -5,18 +5,18 @@ Create your own SCORM 1.2 compliant content that can be uploaded into any LMS
 
 ## A few rules...
 
-	* The starting point for your content must be the index.html page
-	* Index.html must reference scormify.js as this communicates with the LMS
-	* Don't modify the imsmanifest.xml unless you know what you're doing
+* The starting point for your content must be the index.html page
+* Index.html must reference scormify.js as this communicates with the LMS
+* Don't modify the imsmanifest.xml unless you know what you're doing
 
 ## What content can I use?
 
 You can use any content that you want including:
 
-	* Videos, images, audio, flash
-	* Links to other html pages. i.e. create a basic website with navigation.
-	* Javascript. Could be included in the package or referenced from another site like a CDN.
-	* Stylesheets
+* Videos, images, audio, flash
+* Links to other html pages. i.e. create a basic website with navigation.
+* Javascript. Could be included in the package or referenced from another site like a CDN.
+* Stylesheets
 
 ## Publish & Deploy
 
