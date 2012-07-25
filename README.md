@@ -1,5 +1,5 @@
-SCORMIFY SAMPLE COURSE
-==================
+SCORMIFY
+=======
 
 Create your own SCORM 1.2 compliant content that can be uploaded into any LMS
 
